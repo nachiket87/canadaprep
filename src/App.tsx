@@ -14,10 +14,12 @@ const App: React.FC = () => {
         <li> You haven't completed a Bachelors / Masters degree in Canada </li>
         <li> You do not have a valid job offer</li>
       </ol>
-      <a href={`https://www.linkedin.com/in/nachiketpusalkar`}>
-        {" "}
-        Add me on LinkedIN{" "}
-      </a>
+      <React.Fragment>
+        <a href={`https://www.linkedin.com/in/nachiketpusalkar`}>
+          {" "}
+          Add me on LinkedIN{" "}
+        </a>
+      </React.Fragment>
     </div>
   );
 };
